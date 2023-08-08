@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+*{
+    overflow: hidden;
+}
+body{
+    background-image: url("https://kq-storage.s3.ap-south-1.amazonaws.com/Github/astronaut/sky-moon-bg%5B1%5D.png");
+    font-family: 'Exo 2', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+form{
+    background-color: azure;
+    width: 400px;
+    border-radius: 6px;
+    padding: 10px 20px 30px 10px;
+    position: absolute;
+    right: 100px;
+    top: 50px;
+}
+
+
+form h1{
+    text-align: center;
+    width: 330px;
+    margin: 0px auto;
+}
+
+label{
+    display: block;
+}
+
+select, input{
+    width: 290px;
+    height: 30px;
+    margin-top: 9px;
+    margin-bottom: 20px;
+}
+
+.radio input{
+    width: auto;
+    height: auto;
+}
+
+.radio{
+    margin-top: -15px;
+}
+
+
+button{
+    display: block;
+    margin: 0px auto;
+    color: white;
+    background-color: rgb(255, 51, 0);
+    border-radius: 20px;
+    padding: 13px;
+    border: none;
+    margin-top: 20px;
+
+}
+
+.main_form{
+    /* border: 1px solid black; */
+    width: 300px;
+    margin-left: 30px;
+}
+
+.departure{
+    margin-top: 19px;
+}
+
+img{
+    width: 400px;
+    position: absolute;
+    animation: float 5s infinite ease-in-out;
+}
+
+.img1{
+    top: 100px;
+}
+
+.img2{
+    top: 300px;
+    left: 300px;
+}
+
+
+@keyframes float{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(25px);
+    }
+}
+
+
